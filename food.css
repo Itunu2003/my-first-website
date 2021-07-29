@@ -1,0 +1,42 @@
+* {
+	background: cornsilk;
+	justify-content:center;
+	text-align: center;
+	color: darkred;  
+}
+.image img{
+	padding-left: 150px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: darkred;
+	text-align: center;
+	font-family: "gothic";
+    letter-spacing: 5px;
+
+}
+ body {
+ 	font-family: "Times New Roman", Georgia, Serif;
+   }
+ .links {
+ 	display: flex;
+ 	justify-content: center;
+ 	transition: all 0.75s ease-out;
+ } 
+ .links button {
+ 	padding: 0.5rem 2rem;
+ 	background: none;
+ 	border: none;
+ 	border-radius: 30px;
+ 	cursor: pointer;
+ 	box-shadow: 0px 5px 10px;
+ }
+ .links button:hover{
+ 	background: salmon;
+
+ }
+ input {
+ 	border-radius: 20px;
+ 	color: darkred;
+
+ }
+
